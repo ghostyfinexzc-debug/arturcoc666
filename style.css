@@ -1,0 +1,100 @@
+:root {
+    --dark: #19191b;
+    --dark: #19191b;
+    --orange: #ff7143;
+}
+body {
+    font-family:"BBH Bogle ";
+    font-weight: 400;
+    font: 20px;
+    letter-spacing: -0.47px;
+    color: var (--dark);
+}
+
+.header {
+    padding: 30px;
+}
+.header-container , .hero_container {
+    max-width: 1069px;
+    margin-inline: auto;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+align-items: normal;
+list-style: none;
+}
+.header_list {
+    display: flex;
+}
+ul {
+    list-style: none;
+}
+
+.header_list-link { 
+    font-family:"BBH Bogle ";
+    font-weight: 700;
+    color: var(--dark);
+    border-bottom: 2px solid var(--dark);
+    transition: color 0.3s;
+}
+
+.header_list-link:active {
+    color: var(--dark);
+    padding-bottom: 10px;
+}
+.header_list-link:hover {
+    color: crimson;
+}
+a {
+    color: var(--dark);
+    text-decoration: none;
+    border-bottom: 2px solid var(--dark);
+}
+.header_button , .hero_button {
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: -0.53px;
+    color: black;
+    padding: 10px 59px;
+    background: var(--orange);
+   border-radius: 20px;
+   background-size: 200px 100px;
+   gap: 20;
+   border: -1px solid;
+}
+.header_button:hover {
+    opacity: 80%;
+}
+.hero {
+    padding-block: 70px;
+}
+.hero_container {
+    position:relative;
+}
+.hero_image {
+    position: absolute;
+    top: -400px;
+    right: -400x;
+    left: 260px;
+}
+.hero_title {
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: -2.5px;
+    line-height: 77px;
+    color: #19191b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero_task {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.63px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.hero_button {
+    margin-top: 50px;
+    gap: 40px;
+    
+}
